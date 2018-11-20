@@ -71,7 +71,7 @@ class SortingTests {
 
         MediaFetcher.Companion.sortMedia(mediums, SORT_BY_NAME)
         assertEquals(smallest, mediums.first(), "First should be `ahoj`")
-        assertEquals(smallest, mediums.last(), "Last should be `fahoj`")
+        assertEquals(biggest, mediums.last(), "Last should be `fahoj`")
     }
 
 
