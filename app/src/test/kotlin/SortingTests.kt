@@ -74,6 +74,7 @@ class SortingTests {
         assertEquals(biggest, mediums.last(), "Last should be `fahoj`")
     }
 
+    
 
     @Test
     fun sortMediaByDateTakenTests() {
